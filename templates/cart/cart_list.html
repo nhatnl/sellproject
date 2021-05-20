@@ -1,0 +1,8 @@
+<h1>Cart</h1>
+<ul>
+{% for article in object_list %}
+    <li>{{ article.id }} - {{ article.date_create }}</li>
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
+</ul>
