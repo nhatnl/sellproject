@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'custom_user',
     'computer',
-    'cart'
+    'cart',
+
     
 ]
 
@@ -142,3 +143,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'custom_user.CustomUser'
 
 LOGIN_REDIRECT_URL = '/computer/'
+
+CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672/' 

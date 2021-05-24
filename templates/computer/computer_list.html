@@ -1,0 +1,9 @@
+<h1>Computer</h1>
+<ul>
+{% for computer in object_list %}
+    <li>{{ comuter.id }} - {{ computer.name}} - {{computer.brand}} - 
+        {{computer.core}} - {{computer.ram}} - {{computer.hardware}}</li>
+{% empty %}
+    <li>No computer yet.</li>
+{% endfor %}
+</ul>

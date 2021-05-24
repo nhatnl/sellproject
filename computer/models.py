@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 # class Core(models.Model):
 #     _brand_type = [
 #         ('IN', 'Intel'),
@@ -73,4 +74,4 @@ class Computer(models.Model):
     def __str__(self) -> str:
         return self.name
 
-    
+

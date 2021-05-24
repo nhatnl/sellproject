@@ -71,7 +71,7 @@ class Report:
                     f, fieldnames=['No', 'name', 'computer_selled', 'profit'])
                 writer.writeheader()
                 for i, row in enumerate(report):
-                    if i == 4:
+                    if i == 10:
                         break
                     report[i]['No'] = i + 1
                     writer.writerow(row)

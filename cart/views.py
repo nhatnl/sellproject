@@ -66,7 +66,7 @@ def get_report(request, *args, **kwargs):
     end = request.GET.get('end', None)
     path_out = request.GET.get('path_out', None)
     if begin is not None and end is not None:
-        if datetime.datetime.strptime(end, "%Y-%m-%d").date() < datetime.date.today():
+        if datetime.datetime.strptime(end, "%Y-%m-%d").date() <= datetime.date.today():
             report = Report(begin, end, path_out=path_out)
             reportname = report.get_query(request)
             return redirect(f'/cart/report/{reportname}')
