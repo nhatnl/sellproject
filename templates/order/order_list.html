@@ -1,0 +1,9 @@
+<h1>Order</h1>
+<ul>
+{% for order in object_list %}
+
+    <li><a href="{%url 'orderdetail' order.id%}">{{ order.id }} - {{ order.date_create }}</a></li>
+{% empty %}
+    <li>No Order yet.</li>
+{% endfor %}
+</ul>

@@ -1,4 +1,4 @@
-from cart.models import Cart
+from order.models import Order
 from computer.models import Computer
 from .import_data import app
 from django.core.exceptions import ValidationError
@@ -39,8 +39,8 @@ def csv2dic(head, text):
 
 
 @app.task()
-def add_cart(csv_line):
-    cart = Cart(
+def add_order(csv_line):
+    order = Order(
         user_create = csv_line['id_user'],
         date_create = csv_line['date_create'],
         list_computer = csv_line['list_computer'],
@@ -48,45 +48,45 @@ def add_cart(csv_line):
     )
     try:
         
-        cart.full_clean()
+        order.full_clean()
     except ValidationError as e:
         print('error in Validation model', e)
         return False
     else:
-        cart.save()
+        order.save()
         return True
 @app.task()
-def add_list_cart():
+def add_list_order():
     dic = {}
     dic['count'] = random.randint(1,7)
     # dic['user_create'] = CustomUser.objects.get(id = '1')
     for i in range(dic['count']):
         dic[f'computer_{i}'] = {
-            'computer_id': str(random.randint(1,83)),
+            'computer_id': str(random.randint(1,76)),
             'number': str(random.randint(1,20))
         }
-    cart = Cart()
-    cart.user_create = CustomUser.objects.get(id = str(random.randint(1,3)))
-    cart.list_computer = dic
-    cart.update_total_amount()
+    order = Order()
+    order.user_create = CustomUser.objects.get(id = str(random.randint(1,3)))
+    order.list_computer = dic
+    order.update_total_amount()
     try:
         
-        cart.full_clean()
+        order.full_clean()
     except ValidationError as e:
         print('error in Validation model', e)
         return False
     else:
-        cart.save()
+        order.save()
         return True
 @app.task
-def set_all_to_DO(cartid):
-    cart = Cart.objects.get(id = str(cartid))
-    cart.date_create = '2021-05-23'
+def set_all_to_DO(orderid):
+    order = Order.objects.get(id = str(orderid))
+    order.status = 'DO'
     try:
-        cart.full_clean()
+        order.full_clean()
     except ValidationError as e:
         print('error in Validation model', e)
         return False
     else:
-        cart.save()
+        order.save()
         return True

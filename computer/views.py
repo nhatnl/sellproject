@@ -2,24 +2,19 @@
 import os
 import csv
 import ast
-import datetime
-import json
 from django.db import models
 
 from django.db.models.fields import NullBooleanField
 from django.http import response
-from django.http.response import HttpResponseNotFound
 from django.views.generic import ListView, DetailView, UpdateView
 from django.core import serializers
-from django.shortcuts import HttpResponse, get_object_or_404, render
-from django.contrib.auth.decorators import login_required, permission_required, user_passes_test
-from django.utils.decorators import method_decorator
-from django.views.generic.edit import DeleteView
+from django.shortcuts import HttpResponse
+from django.views.generic.edit import CreateView, DeleteView
 
 from .models import Computer
 from sell_web import settings
-from cart.models import Cart
-from import_data.celery_task import add_cart, csv2dic, csv2model, add_list_cart, set_all_to_DO
+from order.models import Order
+from import_data.celery_task import add_order, csv2dic, csv2model, add_list_order, set_all_to_DO
 
 class ComputerView(ListView):
     """
@@ -51,10 +46,10 @@ class ComputerView(ListView):
                 computer_list = computer_list.filter(
                     hardware=request.GET.get('hardware'))
             # Phan order_by
-            if request.GET.get('ob_price', 'ASC') == 'ASC':
-                computer_list = computer_list.order_by('price', 'amount')
-            else:
-                computer_list = computer_list.order_by('-price', 'amount')
+            if request.GET.get('order_by', 'id') == 'id':
+                computer_list = computer_list.order_by('id', 'price')
+            elif request.GET.get('order_by') == 'price':
+                computer_list = computer_list.order_by('price')
             # serializer data thanh dang json va response 
             # JsonSerializer = serializers.get_serializer('json')
             # json_serializer = JsonSerializer()
@@ -66,42 +61,10 @@ class ComputerView(ListView):
             # return render(request, template_name='computer/computer_list.html', context= computer_list.values())
             return self.render_to_response(context)
 
-
-    def post(self, request, *args, **kwargs):
-        """
-            Input: request chua danh sach cac computer va so luong mua
-            Output: id cua cart do.
-        """
-        if request.method == 'POST':
-            if request.user.is_authenticated:
-                cart = Cart()
-                cart.add_to_cart(request)
-                cart.full_clean()
-                cart.save()
-                return HttpResponse({'Done, Cart created id: %s' % cart.id})
-            else:
-                return HttpResponse({'Authentication not set, login first'})
-
-class ReportDetail(DetailView):
-
-    def get(self, request, *args, **kwargs):
-        file_name = kwargs.get('filename', None)
-        if file_name is not None:
-            try:
-                data = {}
-                with open(os.path.join(settings.BASE_DIR, 'report',file_name), 'r') as file:
-                    file_data = csv.DictReader(file)
-                    for rows in file_data:
-                        key = rows['No']
-                        data[key] = rows
-                    print(data)
-                response = HttpResponse(str(data), content_type = 'application/vnd.ms-excel')
-                response['Content-Disposition'] = f'attachment; filename = {file_name}'
-            except IOError:
-                response = HttpResponseNotFound('<h1>File not exist</h1>')
-        return response
-
-
+class CreateComputer(CreateView):
+    model = Computer
+    fields = ['name', 'brand', 'core', 'ram', 'hardware', 'price', 'amount']
+    template_name_suffix = '_update_form'
 
 
 def import_computer_data(filename):
@@ -122,18 +85,20 @@ def import_data(request, *args, **kwargs):
         filename = ast.literal_eval(request.body.decode('UTF-8'))['filename']
         if import_computer_data(filename):
             response = HttpResponse({'Done'})
+            
         else:
             response = HttpResponse({'Failed'})
+        return response
+    else:
+        return HttpResponse({'Login First'})
 
-    return response
 
-
-def import_cart_data(request, *args, **kwargs):
+def import_order_data(request, *args, **kwargs):
     count = 0
-    for i in range(8,1003):
+    for i in range(1,1670):
         set_all_to_DO.delay(i)
         count+=1
-    return HttpResponse({f'Success add {count} cart'})
+    return HttpResponse({f'Success add {count} order'})
 
 
 
