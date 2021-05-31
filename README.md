@@ -25,8 +25,7 @@ $ pip install -r requiremments.txt
   * Tạo empty database.
     * Sử dụng pgadmin4
       Vào Pgadmin4 -> Object -> Create -> Database
-      Tạo database với tên : <databasename>
-      sau đó chỉnh sửa lại trong File sell_web/settings.py line 86
+      Tạo database với tên : <databasename> được lấy trong File sell_web/settings.py line 86
     * Sử dụng psql commandline
       vào terminal -> kết nối đến psql
 ```
