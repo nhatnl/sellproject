@@ -398,8 +398,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 16,
-    "is_active": true
+    "amount": 16
   }
 },
 {
@@ -412,8 +411,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 11,
-    "is_active": true
+    "amount": 11
   }
 },
 {
@@ -426,8 +424,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 90,
-    "is_active": true
+    "amount": 90
   }
 },
 {
@@ -440,8 +437,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 13,
-    "is_active": true
+    "amount": 13
   }
 },
 {
@@ -454,8 +450,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 14,
-    "is_active": true
+    "amount": 14
   }
 },
 {
@@ -468,8 +463,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 15,
-    "is_active": true
+    "amount": 15
   }
 },
 {
@@ -482,8 +476,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 16,
-    "is_active": true
+    "amount": 16
   }
 },
 {
@@ -496,8 +489,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 17,
-    "is_active": true
+    "amount": 17
   }
 },
 {
@@ -510,8 +502,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 18,
-    "is_active": true
+    "amount": 18
   }
 },
 {
@@ -524,8 +515,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 19,
-    "is_active": true
+    "amount": 19
   }
 },
 {
@@ -538,8 +528,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "10000000.00",
-    "amount": 21,
-    "is_active": true
+    "amount": 21
   }
 },
 {
@@ -552,8 +541,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 20,
-    "is_active": true
+    "amount": 20
   }
 },
 {
@@ -566,8 +554,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 22,
-    "is_active": true
+    "amount": 22
   }
 },
 {
@@ -580,8 +567,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 24,
-    "is_active": true
+    "amount": 24
   }
 },
 {
@@ -594,8 +580,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 23,
-    "is_active": true
+    "amount": 23
   }
 },
 {
@@ -608,8 +593,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 25,
-    "is_active": true
+    "amount": 25
   }
 },
 {
@@ -622,8 +606,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 26,
-    "is_active": true
+    "amount": 26
   }
 },
 {
@@ -636,8 +619,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 27,
-    "is_active": true
+    "amount": 27
   }
 },
 {
@@ -650,8 +632,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "18000000.00",
-    "amount": 28,
-    "is_active": true
+    "amount": 28
   }
 },
 {
@@ -664,8 +645,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 29,
-    "is_active": true
+    "amount": 29
   }
 },
 {
@@ -678,8 +658,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 30,
-    "is_active": true
+    "amount": 30
   }
 },
 {
@@ -692,8 +671,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 31,
-    "is_active": true
+    "amount": 31
   }
 },
 {
@@ -706,8 +684,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 33,
-    "is_active": true
+    "amount": 33
   }
 },
 {
@@ -720,8 +697,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "50000000.00",
-    "amount": 32,
-    "is_active": true
+    "amount": 32
   }
 },
 {
@@ -734,8 +710,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 34,
-    "is_active": true
+    "amount": 34
   }
 },
 {
@@ -748,8 +723,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 35,
-    "is_active": true
+    "amount": 35
   }
 },
 {
@@ -762,8 +736,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 36,
-    "is_active": true
+    "amount": 36
   }
 },
 {
@@ -776,8 +749,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 37,
-    "is_active": true
+    "amount": 37
   }
 },
 {
@@ -790,8 +762,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "18000000.00",
-    "amount": 40,
-    "is_active": true
+    "amount": 40
   }
 },
 {
@@ -804,8 +775,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 38,
-    "is_active": true
+    "amount": 38
   }
 },
 {
@@ -818,8 +788,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "10000000.00",
-    "amount": 39,
-    "is_active": true
+    "amount": 39
   }
 },
 {
@@ -832,8 +801,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 41,
-    "is_active": true
+    "amount": 41
   }
 },
 {
@@ -846,8 +814,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 43,
-    "is_active": true
+    "amount": 43
   }
 },
 {
@@ -860,8 +827,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 42,
-    "is_active": true
+    "amount": 42
   }
 },
 {
@@ -874,8 +840,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 44,
-    "is_active": true
+    "amount": 44
   }
 },
 {
@@ -888,8 +853,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 45,
-    "is_active": true
+    "amount": 45
   }
 },
 {
@@ -902,8 +866,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "18000000.00",
-    "amount": 46,
-    "is_active": true
+    "amount": 46
   }
 },
 {
@@ -916,8 +879,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 47,
-    "is_active": true
+    "amount": 47
   }
 },
 {
@@ -930,8 +892,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 48,
-    "is_active": true
+    "amount": 48
   }
 },
 {
@@ -944,8 +905,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "10000000.00",
-    "amount": 51,
-    "is_active": true
+    "amount": 51
   }
 },
 {
@@ -958,8 +918,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 49,
-    "is_active": true
+    "amount": 49
   }
 },
 {
@@ -972,8 +931,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "18000000.00",
-    "amount": 52,
-    "is_active": true
+    "amount": 52
   }
 },
 {
@@ -986,8 +944,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "50000000.00",
-    "amount": 50,
-    "is_active": true
+    "amount": 50
   }
 },
 {
@@ -1000,8 +957,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 54,
-    "is_active": true
+    "amount": 54
   }
 },
 {
@@ -1014,8 +970,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 53,
-    "is_active": true
+    "amount": 53
   }
 },
 {
@@ -1028,8 +983,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 55,
-    "is_active": true
+    "amount": 55
   }
 },
 {
@@ -1042,8 +996,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 56,
-    "is_active": true
+    "amount": 56
   }
 },
 {
@@ -1056,8 +1009,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "10000000.00",
-    "amount": 57,
-    "is_active": true
+    "amount": 57
   }
 },
 {
@@ -1070,8 +1022,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 58,
-    "is_active": true
+    "amount": 58
   }
 },
 {
@@ -1084,8 +1035,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 59,
-    "is_active": true
+    "amount": 59
   }
 },
 {
@@ -1098,8 +1048,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 60,
-    "is_active": true
+    "amount": 60
   }
 },
 {
@@ -1112,8 +1061,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 61,
-    "is_active": true
+    "amount": 61
   }
 },
 {
@@ -1126,8 +1074,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "50000000.00",
-    "amount": 62,
-    "is_active": true
+    "amount": 62
   }
 },
 {
@@ -1140,8 +1087,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "10000000.00",
-    "amount": 63,
-    "is_active": true
+    "amount": 63
   }
 },
 {
@@ -1154,8 +1100,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 66,
-    "is_active": true
+    "amount": 66
   }
 },
 {
@@ -1168,8 +1113,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 65,
-    "is_active": true
+    "amount": 65
   }
 },
 {
@@ -1182,8 +1126,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 64,
-    "is_active": true
+    "amount": 64
   }
 },
 {
@@ -1196,8 +1139,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "7000000.00",
-    "amount": 67,
-    "is_active": true
+    "amount": 67
   }
 },
 {
@@ -1210,8 +1152,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "50000000.00",
-    "amount": 68,
-    "is_active": true
+    "amount": 68
   }
 },
 {
@@ -1224,8 +1165,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 69,
-    "is_active": true
+    "amount": 69
   }
 },
 {
@@ -1238,8 +1178,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 70,
-    "is_active": true
+    "amount": 70
   }
 },
 {
@@ -1252,8 +1191,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 72,
-    "is_active": true
+    "amount": 72
   }
 },
 {
@@ -1266,8 +1204,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 73,
-    "is_active": true
+    "amount": 73
   }
 },
 {
@@ -1280,8 +1217,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 71,
-    "is_active": true
+    "amount": 71
   }
 },
 {
@@ -1294,8 +1230,7 @@
     "ram": "04",
     "hardware": "05",
     "price": "50000000.00",
-    "amount": 74,
-    "is_active": true
+    "amount": 74
   }
 },
 {
@@ -1308,8 +1243,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "18000000.00",
-    "amount": 76,
-    "is_active": true
+    "amount": 76
   }
 },
 {
@@ -1322,8 +1256,7 @@
     "ram": "08",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 75,
-    "is_active": true
+    "amount": 75
   }
 },
 {
@@ -1336,8 +1269,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "20000000.00",
-    "amount": 77,
-    "is_active": true
+    "amount": 77
   }
 },
 {
@@ -1350,8 +1282,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "32000000.00",
-    "amount": 78,
-    "is_active": true
+    "amount": 78
   }
 },
 {
@@ -1364,8 +1295,7 @@
     "ram": "16",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 80,
-    "is_active": true
+    "amount": 80
   }
 },
 {
@@ -1378,8 +1308,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 79,
-    "is_active": true
+    "amount": 79
   }
 },
 {
@@ -1392,8 +1321,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "10000000.00",
-    "amount": 81,
-    "is_active": true
+    "amount": 81
   }
 },
 {
@@ -1406,8 +1334,7 @@
     "ram": "08",
     "hardware": "05",
     "price": "20000000.00",
-    "amount": 83,
-    "is_active": true
+    "amount": 83
   }
 },
 {
@@ -1420,8 +1347,7 @@
     "ram": "04",
     "hardware": "10",
     "price": "18000000.00",
-    "amount": 82,
-    "is_active": true
+    "amount": 82
   }
 },
 {
@@ -1434,8 +1360,7 @@
     "ram": "32",
     "hardware": "05",
     "price": "7000000.00",
-    "amount": 85,
-    "is_active": true
+    "amount": 85
   }
 },
 {
@@ -1448,8 +1373,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "32000000.00",
-    "amount": 84,
-    "is_active": true
+    "amount": 84
   }
 },
 {
@@ -1462,8 +1386,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "30000000.00",
-    "amount": 90,
-    "is_active": true
+    "amount": 90
   }
 },
 {
@@ -1476,8 +1399,7 @@
     "ram": "16",
     "hardware": "05",
     "price": "30000000.00",
-    "amount": 90,
-    "is_active": true
+    "amount": 90
   }
 },
 {
@@ -1490,8 +1412,7 @@
     "ram": "32",
     "hardware": "10",
     "price": "50000000.00",
-    "amount": 90,
-    "is_active": true
+    "amount": 90
   }
 },
 {
