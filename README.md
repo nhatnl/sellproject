@@ -32,20 +32,18 @@ $ pip install -r requiremments.txt
 $ psql -h <host:default localhost> -p <port: default 5432> -U postgres
 $ CREATE database <database name>; 
  ```
-
-4. Migrate database:
-
+  * Migrate database:
 ```
 #sell_project/
 $ python manage.py  migrate
 ```
 
-5. Load data vào database:
+4. Load data vào database:
 ```
 #sell_project/
 $ python manage.py loaddata db.json
 ```
-IV.    Khởi động:
+5.    Khởi động:
 
 ```
 #sell_project/
